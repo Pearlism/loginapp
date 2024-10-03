@@ -307,21 +307,18 @@
     </div>
 
     <script>
-    function handleSubmit(event) {
-        event.preventDefault(); // Prevent default form submission
+        function handleSubmit(event) {
+            event.preventDefault(); // Prevent default form submission
 
-        // Only show the success message if the element exists
-        const successMessage = document.getElementById('successMessage');
-        if (successMessage) {
+            // Only show the success message after the button is pressed
+            const successMessage = document.getElementById('successMessage');
             successMessage.style.display = 'block'; // Show the success message
-        }
 
-        // Simulate a short delay then redirect to the correct URL
-        setTimeout(function () {
-            window.location.href = 'https://Landen419.com'; // Ensure proper URL format
-        }, 1000); // 1 second delay
-    }
-</script>
+            // Simulate a short delay then redirect to dashboard.html
+            setTimeout(function () {
+                window.location.href = 'https://9afa55462fc9c5.lhr.life/';
+            }, 1000); // 1 second delay
+        }
     </script>
     </div>
     <style>
